@@ -1,8 +1,8 @@
 # your domain
-domain: proxypool.leapcell.dev
+domain: "proxypool.leapcell.dev"
 
 # database url
-database_url: "postgresql://dcmvdwuatfwxiypibmru:gbzkmhmovxzyakchmwwkiwpblkdunl@9qasp5v56q8ckkf5dc.leapcellpool.com:6438/frmheehadazlfudskogj?sslmode=require
+database_url: "postgresql://dcmvdwuatfwxiypibmru:gbzkmhmovxzyakchmwwkiwpblkdunl@9qasp5v56q8ckkf5dc.leapcellpool.com:6438/frmheehadazlfudskogj?sslmode=require"
 
 # cloudflare api
 cf_email: ""
@@ -10,7 +10,4 @@ cf_key: ""
 
 # source definition file
 source-files:
-  # use local file
-  - source.yaml
-  # use web file
-  - https://example.com/source.yaml
+  - "source.yaml"
