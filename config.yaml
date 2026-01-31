@@ -1,16 +1,18 @@
+# 监听端口和地址，必须匹配 Leapcell 的 8080 端口
 port: 8080
 addr: "0.0.0.0"
 
-# your domain
+# 你的 Leapcell 服务域名
 domain: "proxypool.leapcell.dev"
 
-# database url
+# 数据库连接串 (确保引号闭合)
 database_url: "postgresql://dcmvdwuatfwxiypibmru:gbzkmhmovxzyakchmwwkiwpblkdunl@9qasp5v56q8ckkf5dc.leapcellpool.com:6438/frmheehadazlfudskogj?sslmode=require"
 
-# cloudflare api
+# Cloudflare 配置，暂不使用则留空
 cf_email: ""
 cf_key: ""
 
-# source definition file
+# 抓取源设置
+# 提示：初次部署建议只保留 source.yaml，确保 Web 服务能秒开通过健康检查
 source-files:
   - "source.yaml"
